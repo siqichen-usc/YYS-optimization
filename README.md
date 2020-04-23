@@ -27,8 +27,8 @@ _夏之蝉 -涉江采芙蓉- 参上_
 
 4. 前往gurobi程序所在的文件夹中有setup.py的那个,并输入```python setup.py install```，示例为Mac
 ```
-cd \
-cd Library\gurobi902\mac64
+cd /
+cd Library/gurobi902/mac64
 python setup.py install
 ```
 
