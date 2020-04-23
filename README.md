@@ -49,7 +49,7 @@ python setup.py install
 
 ```cd Downloads\YYS_Optimization ```
 
-3. 运行优化程序,如果input.xlsx被改名了，记得相应调整指令哦
+3. 运行优化程序，如果input.xlsx被改名了，记得相应调整指令哦
 
 ```python YYS.py Input.xlsx```
 
@@ -59,7 +59,7 @@ python setup.py install
 
 ```cd Downloads\YYS_Optimization ```
 
-3. 运行优化程序,如果input.xlsx被改名了，记得相应调整指令哦
+3. 运行优化程序，如果input.xlsx被改名了，记得相应调整指令哦
 
 ```python choice.py Input.xlsx Number_of_simulations(Optional)```
 
