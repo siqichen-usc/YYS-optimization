@@ -27,9 +27,9 @@ _夏之蝉 -涉江采芙蓉- 参上_
 
 4. 前往gurobi程序所在的文件夹中有setup.py的那个,并输入```python setup.py install```，示例为Mac
 ```
-cd /
-cd Library/gurobi902/mac64
-python setup.py install
+cd /                           # change directory to the root directory
+cd Library/gurobi902/mac64     # go to directory with setup.py
+python setup.py install        # install gurobi in python environment
 ```
 
 ## Step 2: 下载并填写 Input.xlsx
