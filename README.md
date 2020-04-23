@@ -51,7 +51,7 @@ python setup.py install        # install gurobi in python environment
 
 ## Step 3: 计算优化方案/最优精英调查选择
 ### **生成长期 & 短期经营计划**
-1. 下载 YYS.py,并与 Input.xlsx 放在同一个文件夹中
+1. 下载 YYS.py 或者 YYS_time.py 并与 Input.xlsx 放在同一个文件夹中
 > 单纯考虑资金收益使用 YYS.py  
 希望在不加速能做完的情况下，考虑资金收益最大化,使用 YYS_time.py
 
@@ -69,7 +69,7 @@ python YYS_time.py Input.xlsx       #适合希望在不加速能做完的情况�
 ```
 
 ### **生成精英调查最优解**
-1. 下载 choice.py,并与 Input.xlsx 放在同一个文件夹中
+1. 下载 choice.py 并与 Input.xlsx 放在同一个文件夹中
 2. 打开终端，并进入文件所在文件夹
 
 ```
