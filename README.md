@@ -20,7 +20,7 @@ pip install xlsxwriter
 ```
 
 ## Step 1: 安装 Gurobi
-1. 前往 https://www.gurobi.com/downloads/gurobi-software/ ，注册后(邮件会有几分钟延迟)，选择合适版本的 Gurobi Optimizer 并安装
+1. 前往 https://www.gurobi.com/downloads/gurobi-software/ ，注册后(账户类型选Academic，邮件会有几分钟延迟)，选择合适版本的 Gurobi Optimizer 并安装
 > 有Anaconda的可以直接在Anaconda prompt(Windows)或者终端(Linux)安装：  
 ```conda install -c http://conda.anaconda.org/gurobi gurobi```  
 建议安装在默认文件夹或者 gurobi 程序所在的文件夹 ```Library/gurobi902/```，且所有都填yes
