@@ -22,14 +22,18 @@ pip install xlsxwriter
 ## Step 1: 安装 Gurobi
 1. 前往 https://www.gurobi.com/downloads/gurobi-software/ ，注册后(账户类型选Academic，邮件会有几分钟延迟)，选择合适版本的 Gurobi Optimizer 并安装
 > 有Anaconda的可以直接在Anaconda prompt(Windows)或者终端(Linux)安装：  
-```conda install -c http://conda.anaconda.org/gurobi gurobi```  
+```
+conda install -c http://conda.anaconda.org/gurobi gurobi
+```  
 建议安装在默认文件夹或者 gurobi 程序所在的文件夹 ```Library/gurobi902/```，且所有都填yes
 
 2. 前往 http://www.gurobi.com/downloads/user/licenses/free-academic ，申请免费学术许可证（free academic license）
 > **注意：只有在获得并使用了许可证后，才可以使用gurobi！！！**
 3. 下载许可证文件，并在终端内运行以下指令，**请把示例中的许可证换成你个人的许可证**
 
-```grbgetkey ae36ac20-16e6-acd2-f242-4da6e765fa0a```
+```
+grbgetkey ae36ac20-16e6-acd2-f242-4da6e765fa0a
+```
 
 4. 前往gurobi程序所在的文件夹中有setup.py的那个,并输入```python setup.py install```，示例为Mac
 ```
@@ -53,26 +57,36 @@ python setup.py install        # install gurobi in python environment
 
 2. 打开终端，并进入文件所在文件夹
 
-```cd Downloads/YYS-optimization ```
+```
+cd Downloads/YYS-optimization
+```
 
 3. 运行优化程序，如果 Input.xlsx 被改名了，记得相应调整指令哦
 
-```python YYS.py Input.xlsx```
+```
+python YYS.py Input.xlsx
+```
 
 ### **生成精英调查最优解**
 1. 下载 choice.py,并与 Input.xlsx 放在同一个文件夹中
 2. 打开终端，并进入文件所在文件夹
 
-```cd Downloads/YYS-optimization```
+```
+cd Downloads/YYS-optimization
+```
 
 3. 运行优化程序，如果 Input.xlsx 被改名了，记得相应调整指令哦
 
-```python choice.py Input.xlsx Number_of_simulations(Optional)```
+```
+python choice.py Input.xlsx Number_of_simulations(Optional)
+```
 
 > 示例： ```python choice.py Input.xlsx 100```  
 这里默认是做400个模拟,如果不想改变参数，直接运行以下指令就可以了：
 
-```python choice.py Input.xlsx```
+```
+python choice.py Input.xlsx
+```
 
 
 ## Step 4: 理解优化方案/精英调查选择
