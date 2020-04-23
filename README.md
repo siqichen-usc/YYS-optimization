@@ -81,8 +81,8 @@ cd Downloads/YYS-optimization
 python choice.py Input.xlsx Number_of_simulations(Optional)
 ```
 
-> 示例： ```python choice.py Input.xlsx 100```  
-这里默认是做400个模拟,如果不想改变参数，直接运行以下指令就可以了：
+> 示例： ```python choice.py Input.xlsx 40```  
+这里默认是按不同选择，每种做100次模拟,如果不想改变模拟次数，直接运行以下指令就可以了：
 
 ```
 python choice.py Input.xlsx
