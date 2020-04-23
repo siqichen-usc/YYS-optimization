@@ -11,6 +11,7 @@ _夏之蝉 -涉江采芙蓉- 参上_
 
 ## **使用前提：安装 Python** 
 - 如果没有安装 Python 的小伙伴就不建议用了，因为步骤可能过于繁琐
+- 默认你有pandas和numpy
 
 ## Step 1: 安装 Gurobi
 1. 前往https://www.gurobi.com/downloads/gurobi-software/ ，选择合适版本的 Gurobi Optimizer 并安装
@@ -23,6 +24,8 @@ _夏之蝉 -涉江采芙蓉- 参上_
 3. 下载许可证文件，并在终端内运行以下指令，**请把示例中的许可证换成你个人的许可证**
 
 ```grbgetkey ae36ac20-16e6-acd2-f242-4da6e765fa0a```
+
+4. 前往gurobi程序所在的文件夹，找到有setup.py的那个，```cd Library\gurobi902\mac64```，在终端上输入```python setup.py install```
 
 ## Step 2: 下载并填写 Input.xlsx
 - **注意：不要直接移动单元格！不要直接移动单元格！不要直接移动单元格！**
