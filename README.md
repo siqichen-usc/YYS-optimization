@@ -25,7 +25,12 @@ _夏之蝉 -涉江采芙蓉- 参上_
 
 ```grbgetkey ae36ac20-16e6-acd2-f242-4da6e765fa0a```
 
-4. 前往gurobi程序所在的文件夹，找到有setup.py的那个，```cd Library\gurobi902\mac64```，在终端上输入```python setup.py install```
+4. 前往gurobi程序所在的文件夹中有setup.py的那个,并输入```python setup.py install```，示例为Mac
+```
+cd \
+cd Library\gurobi902\mac64
+python setup.py install
+```
 
 ## Step 2: 下载并填写 Input.xlsx
 - **注意：不要直接移动单元格！不要直接移动单元格！不要直接移动单元格！**
