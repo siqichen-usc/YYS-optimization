@@ -64,7 +64,8 @@ cd Downloads/YYS-optimization
 3. 运行优化程序，如果 Input.xlsx 被改名了，记得相应调整指令哦
 
 ```
-python YYS.py Input.xlsx
+python YYS.py Input.xlsx            #适合不介意用勾玉冲的鼠，单纯考虑资金收益
+python YYS_time.py Input.xlsx       #适合希望在不加速能做完的情况下、考虑资金收益最大化的鼠
 ```
 
 ### **生成精英调查最优解**
