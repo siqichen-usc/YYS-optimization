@@ -53,7 +53,7 @@ python setup.py install        # install gurobi in python environment
 
 2. 打开终端，并进入文件所在文件夹
 
-```cd Downloads\YYS_Optimization ```
+```cd Downloads/YYS-optimization ```
 
 3. 运行优化程序，如果 Input.xlsx 被改名了，记得相应调整指令哦
 
@@ -63,7 +63,7 @@ python setup.py install        # install gurobi in python environment
 1. 下载 choice.py,并与 Input.xlsx 放在同一个文件夹中
 2. 打开终端，并进入文件所在文件夹
 
-```cd Downloads\YYS_Optimization ```
+```cd Downloads/YYS-optimization```
 
 3. 运行优化程序，如果 Input.xlsx 被改名了，记得相应调整指令哦
 
