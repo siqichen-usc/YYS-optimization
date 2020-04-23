@@ -86,7 +86,7 @@ python choice.py Input.xlsx Number_of_simulations(Optional)
 这里默认是按不同选择，每种做100次模拟,如果不想改变模拟次数，直接运行以下指令就可以了：
 
 ```
-python choice.py Input.xlsx
+python choice.py Input.xlsx        #目前版本仅考虑资金收益，不考虑所需时间
 ```
 
 
