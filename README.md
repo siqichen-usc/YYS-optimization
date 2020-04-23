@@ -25,7 +25,7 @@ pip install xlsxwriter
 ```
 conda install -c http://conda.anaconda.org/gurobi gurobi
 ```  
-建议安装在默认文件夹或者 gurobi 程序所在的文件夹 ```Library/gurobi902/```，且所有都填yes
+建议安装在**默认文件夹**或者 gurobi 程序所在的文件夹 ```Library/gurobi902/```，且所有都填yes
 
 2. 前往 http://www.gurobi.com/downloads/user/licenses/free-academic ，申请免费学术许可证（free academic license）
 > **注意：只有在获得并使用了许可证后，才可以使用gurobi！！！**
