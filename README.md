@@ -14,9 +14,9 @@ _夏之蝉 -涉江采芙蓉- 参上_
 
 ## Step 1: 安装 Gurobi
 1. 前往https://www.gurobi.com/downloads/gurobi-software/ ，选择合适版本的 Gurobi Optimizer 并安装
-> 有Anaconda的可以直接在anaconda prompt(Windows)或者终端安装：
->```conda install -c http://conda.anaconda.org/gurobi gurobi``` 
->所有都填yes
+> 有Anaconda的可以直接在Anaconda prompt(Windows)或者终端安装：  
+```conda install -c http://conda.anaconda.org/gurobi gurobi```  
+所有都填yes
 
 2. 前往http://www.gurobi.com/downloads/user/licenses/free-academic ，注册后申请免费学术许可证（free academic license）
 > **注意：只有在获得并使用了许可证后，才可以使用gurobi！！！**
@@ -54,9 +54,8 @@ _夏之蝉 -涉江采芙蓉- 参上_
 
 ```python choice.py Input.xlsx Number_of_simulations(Optional)```
 
-> 示例： ```python choice.py Input.xlsx 100```
-
-> 这里默认是做400个模拟,如果不想改变参数，直接运行以下指令就可以了：
+> 示例： ```python choice.py Input.xlsx 100```  
+这里默认是做400个模拟,如果不想改变参数，直接运行以下指令就可以了：
 
 ```python choice.py Input.xlsx```
 
