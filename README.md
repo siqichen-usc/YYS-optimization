@@ -112,6 +112,8 @@ python choice.py Input.xlsx        #目前版本仅考虑资金收益，不考�
 不确定爆仓要做什么的，可以先参考下最右一列数值高的做
 
 <img src="爆仓做什么.png"
+  height = "400"
+  width = "600"
   alt="Markdown Monster icon"
   style="float: middle; margin-right: 10px;" />
 
