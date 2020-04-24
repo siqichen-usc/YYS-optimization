@@ -40,6 +40,7 @@ grbgetkey ae36ac20-16e6-acd2-f242-4da6e765fa0a
 cd /                           # change directory to the root directory
 cd Library/gurobi902/mac64     # go to directory with setup.py
 python setup.py install        # install gurobi in python environment
+python3 setup.py install       # if previous line does not work, try this one out
 ```
 
 ## Step 2: 下载并填写 Input.xlsx
@@ -66,6 +67,11 @@ cd Downloads/YYS-optimization
 ```
 python YYS.py Input.xlsx            #适合不介意用勾玉冲的鼠，单纯考虑资金收益
 python YYS_time.py Input.xlsx       #适合希望在不加速能做完的情况下、考虑资金收益最大化的鼠
+
+# 如果上面的不适用
+python3 YYS.py Input.xlsx
+python3 YYS_time.py Input.xlsx
+
 ```
 
 ### **生成精英调查最优解**
